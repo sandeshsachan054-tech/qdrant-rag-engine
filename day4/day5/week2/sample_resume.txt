@@ -1,0 +1,27 @@
+Pratyush Sharma
+Email: pratyush.sharma@email.com | Phone: +91 98765 43210
+GitHub: github.com/pratyush-sharma | LinkedIn: linkedin.com/in/pratyush
+
+EDUCATION
+Bachelor of Technology in Computer Science and Engineering (B.Tech CSE)
+Graduation: May 2025 | GPA: 8.5/10
+
+TECHNICAL SKILLS
+- Languages: Python, JavaScript, SQL, HTML/CSS
+- Frameworks & Libraries: FastAPI, Flask, Pydantic, Pandas, NumPy
+- Developer Tools: Git, GitHub, VS Code, Docker
+- AI/ML: OpenAI API, Groq, LangChain, NLP, Vector Databases
+
+PROJECTS
+AI-Powered Resume Parser & Matcher (Python, FastAPI, OpenAI, Pydantic)
+- Developed a local system that parses candidate resumes (PDF/Docx) and ranks them against job descriptions.
+- Used Pydantic for strict data validation and mapped experience structures.
+- Optimized match accuracy by utilizing LLMs via Groq and OpenAI API.
+
+EXPERIENCE
+Software Engineering Intern | TechSolutions Corp
+June 2024 - August 2024
+- Built and optimized backend APIs using Python and Flask.
+- Worked with the ML team to integrate basic NLP pipelines for text classification.
+- Improved database query performance by 15% using SQL optimization.
+-

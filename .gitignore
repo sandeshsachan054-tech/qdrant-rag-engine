@@ -1,0 +1,18 @@
+
+qdrant_db*/
+*.lock
+.env
+__pycache__/
+*.pyc
+
+*.mp3
+*.wav
+audios/
+qdrant_db*/
+
+*.env
+*.env copy
+**/ .env*
+*.mp3
+audios/
+qdrant_db*/
