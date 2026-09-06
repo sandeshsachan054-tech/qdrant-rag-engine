@@ -3,15 +3,17 @@ import glob
 import json
 import uvicorn
 from fastapi import FastAPI
+from dotenv import load_dotenv
 from fastapi.responses import HTMLResponse
 # import whisper
 from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import Distance, VectorParams, PointStruct
 from groq import Groq
+load_dotenv()
 
 # ================= CONFIGURATION =================
-groq_client = Groq(api_key="YOUR_GROQ_API_KEY")
+groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 COLLECTION_NAME = "dsa_playlist"
 AUDIO_DIR = "audios"
 # =================================================
@@ -95,7 +97,6 @@ def build_vector_db(chunks):
 app = FastAPI()
 embed_model = SentenceTransformer('all-MiniLM-L6-v2')
 qdrant = QdrantClient(path="./qdrant_db_new")
-groq_client = Groq(api_key=GROQ_API_KEY)
 
 HTML_UI = """
 <!DOCTYPE html>
