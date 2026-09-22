@@ -41,7 +41,7 @@ def transcribe_downloaded_audios():
         filename = os.path.basename(audio_path)
         vid = os.path.splitext(filename)[0]
 
-        # --- YEH CHECK ADD KIYA HAI (Line 36 ke aas-paas) ---
+    
         if vid in processed_vids:
             print(f"[{idx+1}/{len(audio_files)}] Skipping (Already done): {vid}")
             continue

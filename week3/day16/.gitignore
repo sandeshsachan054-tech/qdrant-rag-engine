@@ -14,3 +14,11 @@ qdrant_db*/
 
 # Environment variables (API Keys)
 .env
+
+#Audio filesand Heavy folders
+audios/
+*.mp3
+qdrant_db/
+qdrant_db_new/
+.env
+.venv/
